@@ -1,40 +1,57 @@
 html{
 	font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
-body{
-background-color:#3c3c3c;
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+  padding: 0 20px 20px 20px;
+ /* border: 5px solid black;*/
 }
+
 
 h1 {
   font-size: 60px;
   text-align: center;
-	color:rgb(238,238,238);
+	color:rgb(23,23,68);
 }
 
 table{
-color:rgb(0, 255, 42);
-width:600px;
+color:rgb(110, 120,255);
+width:800px;
+text-align:center;
 }
 
 p, li  {
   font-size: 16px;    
-  line-height: 2;
-  letter-spacing: 1px;
-	color:rgb(238,238,238);
+  line-height: 2;/*
+  letter-spacing: 1px;*/
+	color:rgb(23,23,68);
 }
+
 
 th, td {
         font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
+   /* line-height: 2;
+    letter-spacing: 1px;*/
 	 padding: 5px;
          text-align:justify
          }
- table.center {
+
+#links, a{
+ rowspan ="4";
+ padding: 5px;
+text-align:center;
+}
+
+.center {
+	width:600px;
    margin-left:auto; 
    margin-right:auto;
+	text-align:center;
  }
 
 li:hover{

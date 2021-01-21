@@ -3,7 +3,9 @@ html{
 	font-family: 'Roboto Mono', monospace;
 }
 
-
+#dot{
+color:rgb(0,255,42);
+}
 body {
   width: 800px;
   margin: 0 auto;
